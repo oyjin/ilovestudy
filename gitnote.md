@@ -22,10 +22,9 @@ git log命令显示从最近到最远的提交日志,如果嫌输出信息太多
 现在，我们要把当前版本append GPL回退到上一个版本add distributed，就可以使用git reset命令。
 
 HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令git reset --hard commit_id。
+  * 穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。
 
-穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。
-
-要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
+* 要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
 
 ---
 撤销修改方式：
@@ -55,3 +54,18 @@ HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历�
 要克隆一个仓库，首先必须知道仓库的地址，然后使用git clone命令克隆。
 
 Git支持多种协议，包括https，但通过ssh支持的原生git协议速度最快。
+
+---
+分支创建：
+
+  - 查看分支：git branch
+
+  - 创建分支：git branch <name>
+
+  - 切换分支：git checkout <name>
+
+  - 创建+切换分支：git checkout -b `<name>`
+
+  - 合并某分支到当前分支：git merge <name>
+
+  - 删除分支：git branch -d <name>
