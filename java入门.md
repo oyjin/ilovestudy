@@ -17,4 +17,9 @@
   - 通信 ……
 ---
 * JVM(Java虚拟机，java技术核心)
-![原理图]（https://github.com/oyjin/ilovestudy/raw/master/picture/jvm%E5%8E%9F%E7%90%86.png）
+
+> Java通过JVM实现跨平台
+![原理图](https://github.com/oyjin/ilovestudy/raw/master/picture/jvm%E5%8E%9F%E7%90%86.png)
+
+* JDK 、JRE
+![三者关系](https://github.com/oyjin/ilovestudy/raw/master/picture/JDK%2CJRE.png)
